@@ -87,7 +87,7 @@ static void multiplyMultiThreaded(unsigned int numThreads) {
     // 1- Create "numThreads" threads
     // 2- Build the arguments list for each thread before setting "workerThread" as a starting routine.
     // Each thread will do a portion of the matrix calculation. 
-    // Depending on the number of threads assigned, each thread will get ~ (100/number of threads) rows to calculate
+    // Depending on the number of threads assigned, each thread will get ~ (1000/number of threads) rows to calculate
     // See https://www.geeksforgeeks.org/maths/multiplying-matrices/ for more details
     // A, B and the resulting C= A x B matrices are all of size 1000x1000
 }
